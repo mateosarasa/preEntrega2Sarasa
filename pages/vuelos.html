@@ -4,42 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <title>Vuelos</title>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../img/logoaustral.jpeg" alt=""></a>
+        <a href="../index.html"><img src="../img/logoaustral.jpeg" alt="Logo de Austral Viajes"></a>
         <nav>
-            <ul>
-                <li><a href="../pages/alojamientos.html" target="_blank">Alojamientos</a></li>
-                <li><a href="../pages/vuelos.html"target="_blank">Vuelos</a></li>
-                <li><a href="../pages/ofertas.html"target="_blank">Ofertas</a></li>
-                <li><a href="../pages/contacto.html"target="_blank">Contacto</a></li>
+            <ul class="links">
+                <li><a href="../pages/alojamientos.html" >Alojamientos</a></li>
+                <li><a href="../pages/vuelos.html">Vuelos</a></li>
+                <li><a href="../pages/ofertas.html">Ofertas</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         
-        <div class="volapatagonia">
-            <h1>¡Vola por la Patagonia en hasta 12 cuotas!</h1>
-        </div>
-    
-        <div class="imgs">
-            <h2 class="imgvuelo"><img src="../img/default.png" alt=""></h2>
-            <h3 class="imgvuelo"><img src="../img/default.png" alt=""></h3>
-            <h4 class="imgvuelo"><img src="../img/default.png" alt=""></h4>
-
+        <div class="recorre">
+            <h1>Recorre Argentina</h1>
         </div>
 
-        <div class="lugaresvuelos">
-            <ul>
-                <li>Buenos Aires - El Calafate</li>
-                <li>Buenos Aires - Ushuaia</li>
-                <li>Buenos Aires - Bariloche</li>
-            </ul>
-            
+        
+       <div class="row row-cols-1 row-cols-md-4 g-4">
+         <div class="col">
+           <div class="card h-100">
+           <img src="../img/jujuy.jpg" class="card-img-top" alt="Imagen ilustrativa de Jujuy">
+           <div class="card-body">
+           <h5 class="card-title">Salvador de Jujuy</h5>
+           <p class="card-text">Saliendo desde Buenos Aires</p>
+           <a target="_blank" href="https://www.despegar.com.ar/vuelos/BUE/JUJ?from=SB&di=2-0" class="btn btn-primary">Desde $19.023</a>
+         </div>
+         </div>
+       </div>
+       <div class="col">
+         <div class="card h-100">
+         <img src="../img/iguazu.jpg" class="card-img-top" alt="Imagen ilustrativa de Puerto Iguazu">
+          <div class="card-body">
+          <h5 class="card-title">Puerto Iguazú</h5>
+          <p class="card-text">Saliendo desde Buenos Aires</p>
+          <a target="_blank" href="https://www.despegar.com.ar/vuelos/BUE/IGR?from=SB&di=1-0&reSearch=true" class="btn btn-primary">Desde $18.509</a>
+         </div>
+          </div>
+       </div>
+       <div class="col">
+       <div class="card h-100">
+         <img src="../img/cordoba.jpg" class="card-img-top" alt="Imagen ilustrativa de Cordoba">
+         <div class="card-body">
+          <h5 class="card-title">Cordoba</h5>
+          <p class="card-text">Saliendo desde Buenos Aires</p>
+          <a target="_blank" href="https://www.despegar.com.ar/vuelos/BUE/COR?from=SB&di=1-0&reSearch=true" class="btn btn-primary">Desde $14.076</a>
+        </div>
+        </div>
+        </div>
+       <div class="col">
+         <div class="card h-100">
+         <img src="../img/rio-gallegos.jpg" class="card-img-top" alt="Imagen ilustrativa de Rio Gallegos">
+         <div class="card-body">
+          <h5 class="card-title">Rio Gallegos</h5>
+          <p class="card-text">Saliendo desde Buenos Aires</p>
+          <a target="_blank" href="https://www.despegar.com.ar/vuelos/BUE/RGL?from=SB&di=1-0&reSearch=true" class="btn btn-primary">Desde $38.337</a>
+       </div>
+     </div>
+     </div>
+     </div>
+
+        <div class="alert alert-primary" role="alert">
+            Recuerda verificar cuidadosamente los detalles de tu reserva antes de confirmarla. Asegúrate de que tu nombre y datos de tu DNI / Pasaporte estén escritos correctamente. También revisa los requisitos sanitarios correspondientes al país de destino y de partida. Podes conocerlos haciendo <a target="_blank" href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/emergencia-sanitaria-covid-19/covid-19-viajes-al-exterior#:~:text=Viaje%20al%20exterior,-A%20partir%20del&text=Tienen%20la%20prueba%20PCR%20negativa,pruebas%20deben%20tener%20resultado%20negativo." class="alert-link">clic acá</a>.¡No queremos que tengas problemas en tu viaje!
         </div>
     </main>
 
@@ -52,8 +86,8 @@
                     <li>Franquicias</li>
                     <li>Promociones</li>
                 </ul>
-            
             </div>
+
 
             <div class="redes">
                 <h3>REDES SOCIALES</h3>
@@ -63,5 +97,6 @@
             <div class="derechos">Austral Viajes S.A. (Leg xxx) Arribeños 1000 - CABA - Bs. As. - Argentina Copyright © 2023 - Todos los derechos reservados</div>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
