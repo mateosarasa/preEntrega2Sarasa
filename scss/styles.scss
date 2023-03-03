@@ -1,0 +1,197 @@
+/*reset*/
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estilos generales*/
+body{font-family: 'Helvetica Neue', sans-serif;}
+
+.logo{padding-left: 1rem;}
+
+
+/*estilos de header*/
+header{
+    padding: 0px;
+    align-items: center;
+    background-color:  #f4f4f4 ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;}
+
+header nav ul li{
+    display: inline-block;}
+
+header nav ul li a{
+    display: inline-block;
+    margin-right: 20px;}
+
+
+header a img{
+    width: 35%;}
+
+body header nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(140, 31, 155);
+    padding: 10px;
+    border-radius: 5px;}
+
+.carousel-inner{height: 50%;}
+
+/*estilos de main*/
+main img{
+    object-fit: cover;
+    width: 100%;
+    height: 340px;}
+
+.destacados{
+    padding: 25px;}
+
+main div p{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;}
+
+.porquelegir{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;}
+
+.destacados{
+    text-align: center;
+    width: 100%;}
+
+
+/*estilos de footer*/
+footer{
+    background-color: rgb(244, 240, 240);}
+
+footer nav div ul{
+    margin-top: 10px;}
+
+footer nav ul li{
+    list-style: none;}
+
+footer nav div{
+    padding: 30px;} 
+
+
+/*estilos de Alojamientos*/
+
+.imgdestino{
+    width: 20%;
+    height: 230px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 90px;
+    display: inline-block;
+    justify-content: center;}
+
+.foot{
+    margin-top: 100px;}
+
+.imgs{
+    align-items: center;}
+
+.encontradestino{
+    margin-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 10px;}
+
+.lugaresaloj{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content:center;}
+
+.lugaresaloj ul li{
+    display: inline-block;}
+
+
+/*estilos de vuelos*/
+.imgvuelo{
+    width: 20%;
+    height: 230px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 90px;
+    display: inline-block;
+    justify-content: center;}
+
+.recorre{
+    margin-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 10px;}
+
+.lugaresvuelos{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content:center;}
+    
+.lugaresvuelos ul li{
+    display: inline-block;}
+
+
+/*estilos de ofertas*/
+.imgoferta{
+    width: 20%;
+    height: 230px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 90px;
+    padding-bottom: 20px;
+    display: inline-block;
+    justify-content: center;}
+
+.paq{
+    margin-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 10px;}
+
+.imgoferta{
+    width: 20%;}
+
+
+/*estilos de contacto*/
+
+.maincontacto{
+    display: flex;
+    width: 100%;}
+
+.datos{
+    padding-left: 250px;
+    vertical-align: top;
+    padding: 80px;}
+
+.form-contact{
+    width: 30%;
+    padding: 80px 600px 80px 200px;}
+
+.title-consult{
+    width: 300px;
+    margin-bottom: 50px;}
+
+.casillas, .casillas-consulta{
+    height: 1.8em;
+    width: 250px;
+    margin-bottom: 0.7rem;
+    border-radius: 2px;
+    font-size: 1rem;
+    padding: 7px;
+    border: 1px solid;}
+
+.casillas-consulta{
+    height: 8rem;
+    font-family: 'Helvetica Neue', sans-serif;}
+
+.boton{
+    width: 250px;
+    padding: 7px;
+    font-size: 1rem;}
+
+.titlecontact{
+    margin-bottom: 50px;}
