@@ -1,197 +1,233 @@
 /*reset*/
-*{
-    margin : 0;
+* {
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-/*estilos generales*/
-body{font-family: 'Helvetica Neue', sans-serif;}
-
-.logo{padding-left: 1rem;}
-
-
-/*estilos de header*/
-header{
+    box-sizing: border-box; }
+  
+  /*estilos generales*/
+  body {
+    font-family: 'Helvetica Neue', sans-serif; }
+  
+  .logo {
+    padding-left: 1rem; }
+  
+  .card p{
+      width: 100%;
+      margin-left: 0%;}
+  
+  .card{transition-duration: 0.3s;}
+  
+  .row{padding: 0rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  justify-content: center;}
+  
+  
+  
+  /*estilos de header*/
+  header {
     padding: 0px;
     align-items: center;
-    background-color:  #f4f4f4 ;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
-    font-size: 20px;}
+    font-size: 20px; 
+    a{.logo{ width: 35%;}}
+    nav{
+        ul{
+            li{
+        display: inline-block;
+        a{display: inline-block;
+            margin-right: 20px;
+            transition-duration: 0.2s;
+            text-decoration: none;
+            color: white;
+            background-color: #8c1f9b;
+            padding: 10px;
+            border-radius: 4px;
+            img{width: 35%; }} }}}}
 
-header nav ul li{
-    display: inline-block;}
-
-header nav ul li a{
-    display: inline-block;
-    margin-right: 20px;}
-
-
-header a img{
-    width: 35%;}
-
-body header nav ul li a{
-    text-decoration: none;
-    color: white;
-    background-color: rgb(140, 31, 155);
-    padding: 10px;
-    border-radius: 5px;}
-
-.carousel-inner{height: 50%;}
-
-/*estilos de main*/
-main img{
+  
+  .carousel-inner {
+    height: 50%; }
+  
+  /*estilos de main*/
+ main img{
     object-fit: cover;
     width: 100%;
-    height: 340px;}
-
-.destacados{
-    padding: 25px;}
-
-main div p{
+    height: 340px; }
+  
+  .destacados {
+    padding: 25px; }
+  
+  main div p {
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 20px;}
-
-.porquelegir{
+    margin-top: 20px; }
+  
+  .porquelegir {
     text-align: center;
     width: 100%;
-    margin-top: 20px;}
-
-.destacados{
+    margin-top: 20px; }
+  
+  .destacados {
     text-align: center;
-    width: 100%;}
-
-
-/*estilos de footer*/
-footer{
-    background-color: rgb(244, 240, 240);}
-
-footer nav div ul{
-    margin-top: 10px;}
-
-footer nav ul li{
-    list-style: none;}
-
-footer nav div{
-    padding: 30px;} 
-
-
-/*estilos de Alojamientos*/
-
-.imgdestino{
-    width: 20%;
-    height: 230px;
-    margin-top: 20px;
-    margin-right: 100px;
-    margin-left: 90px;
-    display: inline-block;
-    justify-content: center;}
-
-.foot{
-    margin-top: 100px;}
-
-.imgs{
-    align-items: center;}
-
-.encontradestino{
+    width: 100%; }
+  
+  /*estilos de footer*/
+  footer {
+    background-color: #f4f0f0; }
+  
+  footer nav div ul {
+    margin-top: 10px; }
+  
+  footer nav ul li {
+    list-style: none; }
+  
+  footer nav div {
+    padding: 30px; }
+  
+  /*estilos de Alojamientos*/
+  
+  .foot {
+    margin-top: 100px; }
+  
+  .imgs {
+    align-items: center; }
+  
+  .elegialoj {
     margin-left: 90px;
     padding-top: 30px;
-    padding-bottom: 10px;}
-
-.lugaresaloj{
+    padding-bottom: 10px; }
+  
+  .alert{margin: 0rem 1.5rem;}
+  
+  .lugaresaloj ul li {
+    display: inline-block; }
+  
+  /*estilos de vuelos*/
+  
+  .recorre {
+    margin-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 10px; }
+  
+  .lugaresvuelos {
     display: flex;
     width: 100%;
     height: 200px;
     align-items: center;
-    justify-content:center;}
-
-.lugaresaloj ul li{
-    display: inline-block;}
-
-
-/*estilos de vuelos*/
-.imgvuelo{
-    width: 20%;
-    height: 230px;
-    margin-top: 20px;
-    margin-right: 100px;
-    margin-left: 90px;
-    display: inline-block;
-    justify-content: center;}
-
-.recorre{
+    justify-content: center; }
+  
+  .lugaresvuelos ul li {
+    display: inline-block; }
+  
+  /*estilos de ofertas*/
+  
+  .paq {
     margin-left: 90px;
     padding-top: 30px;
-    padding-bottom: 10px;}
-
-.lugaresvuelos{
+    padding-bottom: 10px; }
+  
+  /*estilos de contacto*/
+  .maincontacto {
     display: flex;
-    width: 100%;
-    height: 200px;
-    align-items: center;
-    justify-content:center;}
-    
-.lugaresvuelos ul li{
-    display: inline-block;}
-
-
-/*estilos de ofertas*/
-.imgoferta{
-    width: 20%;
-    height: 230px;
-    margin-top: 20px;
-    margin-right: 100px;
-    margin-left: 90px;
-    padding-bottom: 20px;
-    display: inline-block;
-    justify-content: center;}
-
-.paq{
-    margin-left: 90px;
-    padding-top: 30px;
-    padding-bottom: 10px;}
-
-.imgoferta{
-    width: 20%;}
-
-
-/*estilos de contacto*/
-
-.maincontacto{
-    display: flex;
-    width: 100%;}
-
-.datos{
+    width: 100%; }
+  
+  .datos {
     padding-left: 250px;
     vertical-align: top;
-    padding: 80px;}
+    padding: 80px; }
+  
+  .titlecontact {
+    margin-bottom: 50px; }
+  
+  .form-contact{
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 10px;
+    margin: 3rem 0rem 0rem 15rem;
+  }
+    
+  .card-header {
+    background-color: #333;
+    padding: 16px;
+    text-align: center;
+  }
+    
+  .card-header .text-header {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+  }
+    
+  .card-body {
+    padding: 16px;
+  }
+    
+  .form-group {
+  margin-bottom: 10px;
+  }
+    
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+    
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    
+  .btn {
+    padding: 12px 24px;
+    margin-left: 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8c1f9b;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    width: 90%;
+  
+  }
+    
+  header nav ul li a:hover, .btn:hover {
+    background-color: #ccc;
+    color: #8c1f9b;
+    transition-duration: 0.2s;
+  }
+  
+  /*tranformaciones y animaciones*/
+  .card:hover{transform: scale(102%);
+  transition-duration: 0.3s;}
+
+    
+
+
+/*media queries*/
+@media screen and (max-width: 1100px){
+    .links{margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        a{margin-top: 1rem;}
+    }
+
 
 .form-contact{
-    width: 30%;
-    padding: 80px 600px 80px 200px;}
-
-.title-consult{
-    width: 300px;
-    margin-bottom: 50px;}
-
-.casillas, .casillas-consulta{
-    height: 1.8em;
-    width: 250px;
-    margin-bottom: 0.7rem;
-    border-radius: 2px;
-    font-size: 1rem;
-    padding: 7px;
-    border: 1px solid;}
-
-.casillas-consulta{
-    height: 8rem;
-    font-family: 'Helvetica Neue', sans-serif;}
-
-.boton{
-    width: 250px;
-    padding: 7px;
-    font-size: 1rem;}
-
-.titlecontact{
-    margin-bottom: 50px;}
+    margin: 1rem;
+    min-width: 95%;}
+.datos{display: flex; 
+       display: none;}}

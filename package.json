@@ -21,6 +21,6 @@
   "homepage": "https://github.com/mateosarasa/preEntrega2Sarasa#readme",
   "devDependencies": {
     "node-sass": "^8.0.0",
-
-    "nodemon": "^2.0.21"}
+    "nodemon": "^2.0.21"
   }
+}

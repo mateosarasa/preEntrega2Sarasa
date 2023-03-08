@@ -7,11 +7,11 @@
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Contacto</title>
+    <title>Contacto | Austral Viajes</title>
 </head>
 <body>
     <header>
-        <a class="logo" href="../index.html"><img src="../img/logoaustral.jpeg" alt="Logo de Austral Viajes"></a>
+        <a href="../index.html"><img class="logo" src="../img/logoaustral.jpeg" alt="Logo de Austral Viajes"></a>
         <nav>
             <ul class="links">
                 <li><a href="../pages/alojamientos.html">Alojamientos</a></li>
@@ -25,13 +25,32 @@
     <main class="maincontacto">
        
 
-        <section class="form-contact">
-            <h2 class="title-consult">Dejanos tu consulta</h2>
-            <input class="casillas" type="text" placeholder="Nombre y Apellido">
-            <input class="casillas" type="text" placeholder="Motivo del Contacto">
-            <textarea class="casillas-consulta" type="text" placeholder="Dejanos tu Consulta/Mensaje"></textarea>
-            <input class="btn btn-primary" type="submit" value="Enviar">
-        </section>
+        <div class="form-contact">
+            <div class="card-header">
+              <div class="text-header">Hace tu consulta</div>
+            </div>
+            <div class="card-body">
+              <form action="#">
+                <div class="form-group">
+                  <label for="nombre">Nombre y apellido:</label>
+                  <input required="" class="form-control" name="nombre" id="nombre" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input required="" class="form-control" name="email" id="email" type="email">
+                </div>
+                <div class="form-group">
+                  <label for="motivo">Motivo de contacto:</label>
+                  <input required="" class="form-control" name="motivo" id="motivo" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="mensaje">Dejanos tu consulta o mensaje:</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+               <input type="submit" class="btn" value="Enviar">    </form>
+            </div>
+          </div>
+          
          
         <div class="datos">
             <h2 class="titlecontact">Contactate con nosotros</h2>

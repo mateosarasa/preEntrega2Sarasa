@@ -11,6 +11,18 @@ body {
 .logo {
   padding-left: 1rem; }
 
+.card p {
+  width: 100%;
+  margin-left: 0%; }
+
+.card {
+  transition-duration: 0.3s; }
+
+.row {
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  justify-content: center; }
+
 /*estilos de header*/
 header {
   padding: 0px;
@@ -19,23 +31,21 @@ header {
   display: flex;
   justify-content: space-between;
   font-size: 20px; }
-
-header nav ul li {
-  display: inline-block; }
-
-header nav ul li a {
-  display: inline-block;
-  margin-right: 20px; }
-
-header a img {
-  width: 35%; }
-
-body header nav ul li a {
-  text-decoration: none;
-  color: white;
-  background-color: #8c1f9b;
-  padding: 10px;
-  border-radius: 5px; }
+  header a .logo {
+    width: 35%; }
+  header nav ul li {
+    display: inline-block; }
+    header nav ul li a {
+      display: inline-block;
+      margin-right: 20px;
+      transition-duration: 0.2s;
+      text-decoration: none;
+      color: white;
+      background-color: #8c1f9b;
+      padding: 10px;
+      border-radius: 4px; }
+      header nav ul li a img {
+        width: 35%; }
 
 .carousel-inner {
   height: 50%; }
@@ -77,46 +87,24 @@ footer nav div {
   padding: 30px; }
 
 /*estilos de Alojamientos*/
-.imgdestino {
-  width: 20%;
-  height: 230px;
-  margin-top: 20px;
-  margin-right: 100px;
-  margin-left: 90px;
-  display: inline-block;
-  justify-content: center; }
-
 .foot {
   margin-top: 100px; }
 
 .imgs {
   align-items: center; }
 
-.encontradestino {
+.elegialoj {
   margin-left: 90px;
   padding-top: 30px;
   padding-bottom: 10px; }
 
-.lugaresaloj {
-  display: flex;
-  width: 100%;
-  height: 200px;
-  align-items: center;
-  justify-content: center; }
+.alert {
+  margin: 0rem 1.5rem; }
 
 .lugaresaloj ul li {
   display: inline-block; }
 
 /*estilos de vuelos*/
-.imgvuelo {
-  width: 20%;
-  height: 230px;
-  margin-top: 20px;
-  margin-right: 100px;
-  margin-left: 90px;
-  display: inline-block;
-  justify-content: center; }
-
 .recorre {
   margin-left: 90px;
   padding-top: 30px;
@@ -133,23 +121,10 @@ footer nav div {
   display: inline-block; }
 
 /*estilos de ofertas*/
-.imgoferta {
-  width: 20%;
-  height: 230px;
-  margin-top: 20px;
-  margin-right: 100px;
-  margin-left: 90px;
-  padding-bottom: 20px;
-  display: inline-block;
-  justify-content: center; }
-
 .paq {
   margin-left: 90px;
   padding-top: 30px;
   padding-bottom: 10px; }
-
-.imgoferta {
-  width: 20%; }
 
 /*estilos de contacto*/
 .maincontacto {
@@ -161,31 +136,86 @@ footer nav div {
   vertical-align: top;
   padding: 80px; }
 
-.form-contact {
-  width: 30%;
-  padding: 80px 600px 80px 200px; }
-
-.title-consult {
-  width: 300px;
-  margin-bottom: 50px; }
-
-.casillas, .casillas-consulta {
-  height: 1.8em;
-  width: 250px;
-  margin-bottom: 0.7rem;
-  border-radius: 2px;
-  font-size: 1rem;
-  padding: 7px;
-  border: 1px solid; }
-
-.casillas-consulta {
-  height: 8rem;
-  font-family: 'Helvetica Neue', sans-serif; }
-
-.boton {
-  width: 250px;
-  padding: 7px;
-  font-size: 1rem; }
-
 .titlecontact {
   margin-bottom: 50px; }
+
+.form-contact {
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  margin: 3rem 0rem 0rem 15rem; }
+
+.card-header {
+  background-color: #333;
+  padding: 16px;
+  text-align: center; }
+
+.card-header .text-header {
+  margin: 0;
+  font-size: 18px;
+  color: white; }
+
+.card-body {
+  padding: 16px; }
+
+.form-group {
+  margin-bottom: 10px; }
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1px; }
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
+
+.btn {
+  padding: 12px 24px;
+  margin-left: 13px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #8c1f9b;
+  color: #fff;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  width: 90%; }
+
+header nav ul li a:hover, .btn:hover {
+  background-color: #ccc;
+  color: #8c1f9b;
+  transition-duration: 0.2s; }
+
+/*tranformaciones y animaciones*/
+.card:hover {
+  transform: scale(102%);
+  transition-duration: 0.3s; }
+
+/*media queries*/
+@media screen and (max-width: 1100px) {
+  .links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; }
+    .links a {
+      margin-top: 1rem; }
+    .links .porquelegir p {
+      width: 80%; }
+  .form-contact {
+    margin: 1rem;
+    min-width: 95%; }
+  .datos {
+    display: flex;
+    display: none; } }
