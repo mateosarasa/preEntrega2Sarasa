@@ -1,0 +1,12 @@
+
+/*tranformaciones y trasiciones*/
+
+header nav ul li a:hover, .btn:hover {
+    background-color: #ccc;
+    color: $principal;
+    transition-duration: 0.2s;
+    }
+    
+   
+  .card:hover{transform: scale(102%);
+    transition-duration: 0.3s;}

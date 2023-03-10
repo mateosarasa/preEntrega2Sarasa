@@ -1,0 +1,21 @@
+
+/*media queries*/
+
+@media screen and (max-width: 1100px){
+    .links{margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        a{margin-top: 1rem;}
+    }
+
+.form-contact{
+    margin: 1rem;
+    min-width: 95%;}
+.datos{display: flex; 
+       display: none;}}
+
+//Variables
+
+$principal: #8c1f9b;
+
+$fondo: #f4f4f4;

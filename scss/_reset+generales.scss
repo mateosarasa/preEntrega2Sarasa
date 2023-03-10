@@ -1,0 +1,28 @@
+
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+/*estilos generales*/
+
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .logo {
+    padding-left: 1rem; }
+  
+  .card p{
+      width: 100%;
+      margin-left: 0%;}
+  
+  .card{transition-duration: 0.3s;}
+  
+  .row{padding: 0rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  justify-content: center;}
+
+
